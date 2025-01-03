@@ -3,7 +3,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/made-with-css.svg)](https://www.linkedin.com/in/drphp/)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
 
-<a href="https://www.instagram.com/p/CZxoKhXLyP-/">
+<a href="https://www.instagram.com/amvsoft.tech">
   <img src="https://cdn.dribbble.com/userupload/17751944/file/original-f09614fe88dbd5e3aa374c9d9662c5c9.png" alt="Instagram" width="400">
 </a>
 
