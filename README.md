@@ -4,7 +4,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
 
 <a href="https://www.instagram.com/amvsoft.tech">
-  <img src="https://cdn.dribbble.com/userupload/17751944/file/original-f09614fe88dbd5e3aa374c9d9662c5c9.png" alt="Instagram" width="400">
+  <img src="https://cdn.dribbble.com/userupload/15597550/file/original-5c6dcbed294af492e22525b0ca6b4e52.png" alt="Instagram" width="500">
 </a>
 
 - Clona este repositorio en tu máquina local utilizando el comando git clone [URL_del_repositorio].
