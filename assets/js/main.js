@@ -559,10 +559,7 @@ jQuery(function ($) {
                 }
 
                 if (button == sendButton) {
-                    $('.progressbar').addClass('complete');
-                }
-
-                if (button == sendButton) {
+                     $('.progressbar').addClass('complete');
 
                     let height = $('.multi-step-form .success.message').parents().eq(1).height();
                     let message = $('.multi-step-form .success.message');                            
@@ -571,7 +568,9 @@ jQuery(function ($) {
                     
                     $('.form-content').hide();
                     
-                    $('.multi-step-form').submit();
+                    setTimeout(function() {
+                        $('.multi-step-form').submit();
+                    }, 5000);
                 }
 
                 if (animating) return false;
@@ -615,16 +614,16 @@ jQuery(function ($) {
         })
     }   
 
-    function submissionDone() {                
-        if(leverage_form.hasClass('redirect-sending')) {
-            window.location.href = leverage_form.data('redirect');
-        } else {     
-            let wait = $('.multi-step-form .success.message .wait');
-            let done = $('.multi-step-form .success.message .done');
-
-            wait.hide();
-            done.show();            
-        } 
+    function submissionDone() {    
+        let wait = $('.multi-step-form .success.message .wait');
+        let done = $('.multi-step-form .success.message .done');           
+        wait.hide();
+        done.show();
+        if(leverage_form.hasClass('redirect-sending')) { 
+            setTimeout(function() {
+                window.location.href = leverage_form.data('redirect');
+            }, 5000);
+        }
     }
 
     // Progressbar
