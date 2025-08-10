@@ -1,23 +1,4 @@
 /*----------------------------------------------
-*
-* [Theme Pink Stylesheet]
-*
-* Theme    : Leverage
-* Version  : 1.1.0
-* Author   : Codings
-* Support  : adm.codings@gmail.com
-* 
-----------------------------------------------*/
-
-/*----------------------------------------------
-
-[ALL CONTENTS]
-
-1. Root
-
-----------------------------------------------*/
-
-/*----------------------------------------------
 1. Root
 ----------------------------------------------*/
 
@@ -29,4 +10,17 @@
     --secondary-color: #E0040B;
 }
 
-/* #endregion Root */
+:root {
+    --header-bg-color: #f5f5f5;
+    --nav-item-color: #2f323a;
+    --hero-bg-color: #f5f5f5;
+    --section-1-bg-color: #eeeeee;
+    --section-2-bg-color: #111111;
+    --section-3-bg-color: #191919;
+    --section-4-bg-color: #f5f5f5;
+    --section-5-bg-color: #e5e5e5;
+    --section-6-bg-color: #eeeeee;
+    --section-7-bg-color: #111111;
+    --section-8-bg-color: #f5f5f5;
+    --footer-bg-color: #111111;
+}
