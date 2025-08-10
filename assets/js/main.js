@@ -1,33 +1,4 @@
 /*----------------------------------------------
-*
-* [Main Scripts]
-*
-* Theme    : Leverage
-* Version  : 1.1.0
-* Author   : Codings
-* Support  : adm.codings@gmail.com
-* 
-----------------------------------------------*/
-
-/*----------------------------------------------
-
-[ALL CONTENTS]
-
-1. Preloader
-2. Responsive Menu
-3. Navigation 
-4. Slides 
-5. Progress Bar
-6. Shuffle
-7. Sign and Register Form
-8. Multi-Step Form 
-9. Simple Form
-10. Recaptcha
-11. Cookie Notice
-
-----------------------------------------------*/
-
-/*----------------------------------------------
 1. Preloader
 ----------------------------------------------*/
 
@@ -36,6 +7,7 @@ jQuery(function ($) {
     'use strict';
 
     let preloader = $('.preloader');
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
 
     setTimeout(function() {
         preloader.addClass('ready');
